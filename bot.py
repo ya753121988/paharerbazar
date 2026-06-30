@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = "paharer_bazar_mega_ultra_key_2024"
 
 # --- মংগোডিবি কানেকশন (এখানে আপনার কানেকশন স্ট্রিংটি অবশ্যই বসাবেন) ---
-MONGO_URI = "mongodb+srv://YOUR_USER:YOUR_PASSWORD@cluster0.mongodb.net/shop_db?retryWrites=true&w=majority"
+MONGO_URI = "mongodb+srv://Demo270:Demo270@cluster0.ls1igsg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(MONGO_URI)
 db = client['paharer_bazar_final']
 products_col = db['products']
