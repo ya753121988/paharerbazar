@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = "paharer_bazar_absolute_ultimate_mega_final_2026"
 
 # --- মংগোডিবি কানেকশন (আপনার দেওয়া লিঙ্ক) ---
-MONGO_URI = "mongodb+srv://Demo270:Demo270@cluster0.ls1igsg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://ksnsjdjdnkdnd:mxmdmdkdndk@cluster0.gtlvrlq.mongodb.net/?appName=Cluster0"
 client = MongoClient(MONGO_URI)
 
 # ডাটাবেস নাম ফিক্সড করা হলো যাতে ১০০ ডাটাবেস এরর আর না আসে
